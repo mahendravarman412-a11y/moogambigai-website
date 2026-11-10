@@ -3,47 +3,81 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moogambigai Metal Sculptures</title>
+<meta name="description" content="Sri Moogambigai Metal Sculptures — Traditional South Indian metal sculpture craftsmanship by Brahmasri R. Gopu Sthapathy, State Awardee.">
+<title>Sri Moogambigai | Metal Sculptures</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <div class="logo">MOOGAMBIGAI <span>METAL SCULPTURES</span></div>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<header class="header">
+  <a class="brand" href="#home">MOOGAMBIGAI <span>METAL SCULPTURES</span></a>
+  <nav><a href="#about">Our Story</a><a href="#craft">Craftsmanship</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></nav>
+  <a class="header-contact" href="#contact">ENQUIRE ↗</a>
 </header>
 
-<section id="home" class="hero">
-    <p>ARTISTRY • CRAFTSMANSHIP • HERITAGE</p>
-    <h1>The Art of<br><span>Metal Sculpting.</span></h1>
-    <p>Discover the beauty of metal transformed into art.</p>
-    <a class="btn" href="#gallery">Explore Collection ↗</a>
+<main>
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">TRADITION · PRECISION · ARTISTRY</p>
+    <h1>Crafted by hand.<br><em>Made to endure.</em></h1>
+    <p class="intro">A tradition of sacred metal artistry, shaped with patience, precision and devotion.</p>
+    <a class="button" href="#gallery">DISCOVER OUR WORK <span>↗</span></a>
+    <div class="hero-note"><span>ANDIMADAM · TAMIL NADU</span><span>EST. TRADITIONAL CRAFT</span></div>
+  </div>
+  <div class="hero-visual">
+    <img src="images/sculpture-01.jpg" alt="Traditional metal sculpture" onerror="this.style.display='none';this.parentElement.classList.add('image-missing')">
+    <span class="visual-caption">THE BEAUTY OF TIMELESS CRAFT</span>
+  </div>
 </section>
 
-<section id="about">
-    <p>01 — ABOUT US</p>
-    <h2>Where metal meets <span>art.</span></h2>
-    <p>Discover our sculptures, craftsmanship and creative work.</p>
+<section class="intro-section" id="about">
+  <div class="section-label">01 / THE ATELIER</div>
+  <div class="about-content">
+    <p class="eyebrow">SRI MOOGAMBIGAI METAL SCULPTURES</p>
+    <h2>Rooted in heritage.<br><em>Defined by detail.</em></h2>
+    <p>Every sculpture begins with an idea and takes shape through skilled hands. We create traditional metal works that honour the richness of South Indian sculptural art and its enduring cultural legacy.</p>
+    <div class="owner-line"><strong>Brahmasri R. Gopu Sthapathy</strong><span>STATE AWARDEE</span></div>
+  </div>
 </section>
 
-<section id="gallery">
-    <p>02 — OUR COLLECTION</p>
-    <h2>Selected <span>Creations.</span></h2>
-    <div id="gallery-grid"></div>
+<section class="craft-section" id="craft">
+  <div class="section-label">02 / WHAT WE CREATE</div>
+  <div class="craft-heading"><p class="eyebrow">OUR CRAFTSMANSHIP</p><h2>Tradition in<br><em>every detail.</em></h2></div>
+  <div class="craft-list">
+    <div><span>01</span><h3>Panchaloka Vigraham</h3><p>Traditional five-metal sacred sculptures</p></div>
+    <div><span>02</span><h3>Kavasam</h3><p>Ornamental metal coverings</p></div>
+    <div><span>03</span><h3>Kalasam</h3><p>Traditional temple kalasam works</p></div>
+    <div><span>04</span><h3>Kodimaram</h3><p>Temple flagstaff craftsmanship</p></div>
+    <div><span>05</span><h3>Thiruvachi</h3><p>Decorative traditional metal frames</p></div>
+    <div><span>06</span><h3>Custom Sculptures</h3><p>Other traditional sculpture works</p></div>
+  </div>
 </section>
 
-<section id="contact">
-    <p>03 — CONTACT</p>
-    <h2>Let's create something <span>remarkable.</span></h2>
-    <p>Worldwide enquiries welcome.</p>
-    <a class="btn" href="mailto:YOUR_EMAIL@example.com">Send an Enquiry ↗</a>
+<section class="gallery-section" id="gallery">
+  <div class="section-label">03 / SELECTED WORKS</div>
+  <div class="gallery-heading"><div><p class="eyebrow">A CLOSER LOOK</p><h2>Works of <em>devotion.</em></h2></div><p>Explore the details, forms and character of traditional metal sculpture.</p></div>
+  <div class="gallery-grid" id="gallery-grid">
+    <figure class="gallery-main"><img src="images/sculpture-01.jpg" alt="Metal sculpture"><figcaption>01 — SCULPTURAL ART</figcaption></figure>
+    <figure><img src="images/sculpture-02.jpg" alt="Traditional sculpture"><figcaption>02 — TRADITIONAL CRAFT</figcaption></figure>
+    <figure><img src="images/sculpture-03.jpg" alt="Metal craftsmanship"><figcaption>03 — FINE DETAILS</figcaption></figure>
+  </div>
 </section>
 
-<footer>© 2026 Moogambigai Metal Sculptures</footer>
+<section class="contact-section" id="contact">
+  <div class="section-label">04 / GET IN TOUCH</div>
+  <p class="eyebrow">LET'S DISCUSS YOUR REQUIREMENTS</p>
+  <h2>Some things are<br><em>made to last.</em></h2>
+  <a class="button light" href="https://wa.me/919842503715">START AN ENQUIRY ↗</a>
+  <div class="contact-details">
+    <div><span>CALL</span><a href="tel:+919842503715">+91 98425 03715</a><a href="tel:+918825488791">+91 88254 88791</a></div>
+    <div><span>EMAIL</span><a href="mailto:mooghambigai@gmail.com">mooghambigai@gmail.com</a></div>
+    <div><span>VISIT</span><p>No. 1700A, Virudhachalam Road,<br>Andimadam, Ariyalur District,<br>Tamil Nadu — 621801</p></div>
+  </div>
+</section>
+</main>
+
+<footer><a class="brand" href="#home">MOOGAMBIGAI <span>METAL SCULPTURES</span></a><p>© 2026 Sri Moogambigai Metal Sculptures</p><p>GSTIN: 33AYQPG4617H1ZE</p></footer>
 <script src="script.js"></script>
 </body>
 </html>
