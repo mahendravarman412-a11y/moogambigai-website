@@ -64,3 +64,660 @@ footer p{font-size:10px;color:var(--muted)}
   font-weight: 600;
   color: #e8dfcc;
 }
+
+/* PREMIUM BLUE TO BLACK THEME */
+:root {
+  --bg: #030509;
+  --accent: #398bff;
+  --text: #ffffff;
+  --muted: #aab6c8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at 50% 0%, #123d78 0%, #07172d 32%, #030509 72%);
+  background-attachment: fixed;
+  color: #fff;
+}
+
+header {
+  background: rgba(3, 7, 15, 0.82);
+  backdrop-filter: blur(18px);
+}
+
+section {
+  background: transparent;
+}
+
+h1, h2, h3, p, a, span {
+  color: inherit;
+}
+
+a, button {
+  transition: all 0.3s ease;
+}
+
+a:hover, button:hover {
+  color: #72b2ff;
+}
+
+
+body {
+  background:
+    radial-gradient(ellipse at 15% 8%, rgba(75,105,255,.65), transparent 42%),
+    radial-gradient(ellipse at 85% 12%, rgba(115,105,220,.55), transparent 40%),
+    radial-gradient(ellipse at 50% 48%, rgba(65,85,125,.28), transparent 55%),
+    linear-gradient(180deg, #253b83 0%, #111b39 48%, #030509 100%);
+  background-attachment: fixed;
+  color: #fff;
+}
+
+section {
+  background: transparent !important;
+}
+
+
+body {
+  background:
+    radial-gradient(ellipse at 15% 0%, #5269c8 0%, transparent 42%),
+    radial-gradient(ellipse at 85% 8%, #55509b 0%, transparent 38%),
+    linear-gradient(180deg, #26365f 0%, #111a30 48%, #030509 100%);
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.header {
+  background: rgba(9, 15, 32, .55);
+  border-color: rgba(255,255,255,.12);
+}
+
+.craft-section,
+.intro-section,
+.gallery-section,
+.contact-section {
+  background: transparent !important;
+  color: #fff;
+  border-color: rgba(255,255,255,.12);
+}
+
+.contact-section .section-label,
+.contact-section .eyebrow {
+  color: #aab6e8;
+}
+
+.contact-details {
+  border-color: rgba(255,255,255,.2);
+}
+
+.contact-details span {
+  color: #aab6c8;
+}
+
+.button {
+  background: #fff;
+  color: #10182b;
+}
+
+
+/* LUXURY BLACK THEME */
+:root {
+  --bg: #050505;
+  --panel: #101010;
+  --white: #f5f1e8;
+  --muted: #aaa49a;
+  --line: #29251e;
+  --accent: #c6a66b;
+}
+
+body {
+  background: #050505;
+  color: var(--white);
+}
+
+.header {
+  background: rgba(5,5,5,.92);
+  border-color: #29251e;
+}
+
+.intro-section,
+.craft-section,
+.gallery-section,
+.contact-section {
+  background: #050505 !important;
+  color: var(--white);
+}
+
+h1 em, h2 em,
+.eyebrow, .section-label,
+.craft-list span {
+  color: var(--accent);
+}
+
+.contact-section .section-label,
+.contact-section .eyebrow,
+.contact-details span {
+  color: var(--accent);
+}
+
+.contact-details {
+  border-color: var(--line);
+}
+
+.hero-visual img,
+.gallery-grid img {
+  transition: transform .8s ease, filter .8s ease;
+}
+
+.hero-visual:hover img,
+.gallery-grid figure:hover img {
+  transform: scale(1.035);
+  filter: saturate(1);
+}
+
+.button {
+  background: var(--accent);
+  color: #080808;
+  transition: all .4s ease;
+}
+
+.button:hover {
+  background: #f0d39a;
+  transform: translateY(-3px);
+}
+
+.hero > div:first-child,
+.hero-visual,
+.intro-section,
+.craft-section,
+.gallery-section,
+.contact-section {
+  animation: reveal .9s ease both;
+}
+
+@keyframes reveal {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+
+/* BLUE BLACK CINEMATIC BACKGROUND */
+:root {
+  --bg: #050609;
+  --panel: #101116;
+  --white: #ffffff;
+  --muted: #b0b4c2;
+  --line: rgba(255,255,255,.12);
+  --accent: #659aff;
+}
+
+html {
+  background: #050609;
+}
+
+body {
+  position: relative;
+  isolation: isolate;
+  background: #050609 !important;
+  color: #fff;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 90% -5%, #477de0 0%, transparent 38%),
+    radial-gradient(ellipse at 5% 0%, #d0d8ed 0%, transparent 28%),
+    radial-gradient(ellipse at 12% 78%, #315fce 0%, transparent 25%),
+    radial-gradient(ellipse at 55% 52%, #1645a0 0%, transparent 32%),
+    linear-gradient(155deg, #172d60 0%, #080b14 42%, #020307 78%);
+}
+
+.header {
+  background: rgba(3,5,10,.65);
+  backdrop-filter: blur(18px);
+}
+
+.intro-section,
+.craft-section,
+.gallery-section,
+.contact-section {
+  background: transparent !important;
+  color: #fff;
+}
+
+.contact-details span,
+.contact-section .eyebrow,
+.contact-section .section-label {
+  color: #83aaff;
+}
+
+h1 em, h2 em,
+.eyebrow, .section-label,
+.craft-list span {
+  color: #83aaff;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: .15px;
+}
+
+h1, h2, h3,
+.brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+}
+
+nav a,
+.header-contact,
+.eyebrow,
+.section-label,
+.button {
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: 2px;
+}
+
+.hero h1 {
+  letter-spacing: -1.5px;
+}
+
+
+/* PREMIUM EDITORIAL REDESIGN */
+
+:root {
+  --bg: #050608;
+  --panel: #10131b;
+  --white: #f7f8fc;
+  --muted: #a2a9b8;
+  --line: rgba(255,255,255,.12);
+  --accent: #83aaff;
+}
+
+body {
+  background: #050608 !important;
+  color: var(--white);
+  font-family: 'Manrope', sans-serif;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 90% 0%, rgba(53,92,190,.4), transparent 38%),
+    radial-gradient(ellipse at 0% 65%, rgba(35,73,155,.2), transparent 35%),
+    linear-gradient(180deg,#10182b 0%,#07090e 45%,#030405 100%);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 82px;
+  padding: 0 8%;
+  background: rgba(5,6,8,.78);
+  backdrop-filter: blur(22px);
+  border-bottom: 1px solid var(--line);
+}
+
+.brand {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+nav a, .header-contact {
+  color: #c4cada;
+  font-weight: 600;
+}
+
+.hero {
+  min-height: 82vh;
+  padding: 130px 10%;
+  display: flex;
+  align-items: center;
+  background: transparent;
+}
+
+.hero-copy {
+  max-width: 950px;
+}
+
+.hero h1 {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(54px,8vw,108px);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -5px;
+}
+
+h1 em, h2 em {
+  color: #91b4ff;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.eyebrow, .section-label {
+  color: #91b4ff;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.intro {
+  max-width: 550px;
+  font-size: 16px;
+}
+
+.button {
+  border-radius: 2px;
+  background: #f4f6ff;
+  color: #080a10;
+  font-weight: 800;
+}
+
+.intro-section, .craft-section, .gallery-section {
+  padding: 125px 10%;
+  background: transparent !important;
+  border-top: 1px solid var(--line);
+}
+
+.intro-section {
+  grid-template-columns: .7fr 1.8fr;
+  gap: 8%;
+}
+
+.about-content h2,
+.craft-heading h2,
+.gallery-heading h2 {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(42px,5.5vw,72px);
+  font-weight: 800;
+  letter-spacing: -2.5px;
+  line-height: 1.15;
+}
+
+.about-content>p:not(.eyebrow) {
+  font-size: 16px;
+  line-height: 2;
+  color: var(--muted);
+}
+
+.owner-line {
+  margin-top: 55px;
+  padding-top: 28px;
+  border-top: 1px solid rgba(131,170,255,.35);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.owner-line strong {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(25px,4vw,42px);
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 0 0 25px rgba(105,155,255,.4);
+}
+
+.owner-line span {
+  font-size: 12px;
+  letter-spacing: 4px;
+  color: #91b4ff;
+  font-weight: 800;
+}
+
+.craft-section {
+  display: grid;
+  grid-template-columns: .7fr 1.8fr;
+  column-gap: 8%;
+  row-gap: 50px;
+}
+
+.craft-heading {
+  grid-column: 2;
+}
+
+.craft-list {
+  grid-column: 2;
+}
+
+.craft-list>div {
+  grid-template-columns: 55px 1fr;
+  padding: 27px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.craft-list h3 {
+  font-family: 'Manrope', sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.craft-list p {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.gallery-heading {
+  margin: 35px 0 55px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  min-height: 100px;
+}
+
+.gallery-grid:empty {
+  display: none;
+}
+
+.contact-section {
+  padding: 125px 10%;
+  background: transparent !important;
+  color: white;
+  border-top: 1px solid var(--line);
+}
+
+.contact-section h2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  letter-spacing: -3px;
+}
+
+.contact-section .eyebrow,
+.contact-section .section-label,
+.contact-details span {
+  color: #91b4ff;
+}
+
+.contact-details {
+  border-color: var(--line);
+}
+
+.contact-details p,
+.contact-details a {
+  color: #e3e7f0;
+}
+
+footer {
+  padding: 40px 8%;
+  background: #030405;
+  border-top: 1px solid var(--line);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity .8s ease, transform .8s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media(max-width:800px) {
+  .hero { padding: 90px 7%; min-height: 75vh; }
+  .hero h1 { letter-spacing: -2px; }
+  .intro-section, .craft-section {
+    grid-template-columns: 1fr;
+    padding: 85px 7%;
+  }
+  .craft-heading, .craft-list { grid-column: 1; }
+  .gallery-section, .contact-section { padding: 85px 7%; }
+  .owner-line strong { font-size: 27px; }
+}
+
+
+/* CLASSIC HERITAGE FINISH */
+
+body::before {
+  background:
+    radial-gradient(ellipse at 85% 5%, rgba(130,95,45,.16), transparent 38%),
+    radial-gradient(ellipse at 5% 70%, rgba(100,75,40,.10), transparent 35%),
+    linear-gradient(180deg,#0b0a08 0%,#070706 50%,#030303 100%);
+}
+
+.hero h1,
+.about-content h2,
+.craft-heading h2,
+.gallery-heading h2,
+.contact-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  line-height: 1.16;
+}
+
+.hero h1 {
+  font-size: clamp(48px,6.2vw,86px);
+}
+
+h1 em, h2 em {
+  color: #c5a46a;
+  font-weight: 600;
+}
+
+.eyebrow, .section-label,
+.owner-line span,
+.contact-details span {
+  color: #c5a46a;
+}
+
+.owner-line strong {
+  font-family: 'Playfair Display', serif;
+  text-shadow: 0 0 20px rgba(197,164,106,.18);
+}
+
+.button {
+  background: #c5a46a;
+  color: #100d08;
+}
+
+.button.light {
+  background: #c5a46a;
+  color: #100d08;
+}
+
+.header-contact {
+  border-color: rgba(197,164,106,.4);
+}
+
+
+/* GALLERY PLACEHOLDER */
+
+.gallery-section {
+  padding-bottom: 75px;
+}
+
+.gallery-heading {
+  margin-bottom: 25px;
+}
+
+.gallery-grid:empty {
+  display: block;
+  min-height: 0;
+  padding: 24px 0;
+}
+
+.gallery-grid:empty::after {
+  content: "OUR TRADITIONAL CREATIONS WILL BE FEATURED HERE";
+  display: block;
+  color: #a58a5c;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 25px 0;
+  border-top: 1px solid rgba(197,164,106,.2);
+}
+
+
+/* THE CRAFTSMAN SECTION */
+
+.craftsman-section {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: center;
+  gap: 8%;
+  padding: 110px 10%;
+  border-top: 1px solid var(--line);
+  background: transparent;
+}
+
+.craftsman-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 720px;
+  object-fit: contain;
+}
+
+.craftsman-copy h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(42px, 5vw, 72px);
+  line-height: 1.15;
+  color: #fff;
+}
+
+.craftsman-copy h2 em {
+  color: #c5a46a;
+}
+
+.craftsman-copy > p:last-child {
+  color: #c5a46a;
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-top: 25px;
+}
+
+@media(max-width:800px) {
+  .craftsman-section {
+    grid-template-columns: 1fr;
+    padding: 75px 7%;
+    gap: 35px;
+  }
+}
+
